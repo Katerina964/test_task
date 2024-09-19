@@ -57,7 +57,7 @@ def save_data(country: str, holidays: list):
         logger.error(f"error: can not write into file, details: {e}")
 
 
-def collect_date():
+def collect_data():
     for country in countries_list:
         for year in range(start_time.year, end_time.year + 1):
             params = f"&country={country}&year={year}"
@@ -77,4 +77,4 @@ def collect_date():
                 save_data(country, holidays)
 
 
-collect_date()
+collect_data()
