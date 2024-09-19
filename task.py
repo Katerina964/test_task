@@ -54,7 +54,7 @@ def save_data(country: str, holidays: list):
             ) as f:
                 f.write(json.dumps(holiday))
     except Exception as e:
-        logger.error(f"error: can not write into file, details: {e}")
+        logger.error(f"error: can not write to a file, details: {e}")
 
 
 def collect_data():
