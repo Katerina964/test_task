@@ -6,4 +6,4 @@ after git clone:
 
 or
 
-if you have env with installed requests module: replace file task.py and change line 52 - path to the file folder
+if you have env with installed requests module: replace file task.py and change line 52 - path to the file folder and put api_key in environment variables
